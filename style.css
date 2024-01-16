@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Josefin+Sans:wght@300;400&family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Josefin+Sans:wght@300;400&family=Jost:wght@300&family=Philosopher&display=swap');
+
+/* About index page css */
+* {
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+}
+
+body {
+    background: linear-gradient(45deg, #222120, #6f6e6e);
+    height: 100vh;
+}
+
+#navbar {
+    background-color: transparent;
+    height: 70px;
+}
+
+.bar ul {
+    display: flex;
+}
+
+.bar ul li a {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+.bar ul li a:hover {
+    color: black;
+    border-radius: 10px;
+    margin: 2px 4px;
+    padding: 2px 4px;
+}
+
+.port {
+    font-family: 'Philosopher', sans-serif;
+    position: absolute;
+    margin-left: 30px;
+    font-size: 45px;
+    color: white;
+}
+
+span {
+    color: rgb(246, 26, 26);
+}
+
+.right {
+    width: 400px;
+    right: 20px;
+    top: 15px;
+    position: absolute;
+}
+
+
+.img1 img {
+    position: absolute;
+    top: 0px;
+    width: 600px;
+    height: 600px;
+    margin: 0px 10px;
+}
+
+.text {
+    top: 160px;
+    right: 20px;
+    position: absolute;
+}
+
+.heading2 {
+    color: white;
+    right: 10px;
+    width: 600px;
+    font-size: 70px;
+    margin: 80px 10px 5px  40px;
+}
+
+
+.heading3 {
+    color: white;
+    right: 20px;
+    width: 600px;
+    font-size: 20px;
+    margin: 10px 0px 2px 10px;
+    padding: 5px 5px;
+}
+
+.mid ul {
+    display: flex;
+    margin: 20px 0px 0px 30px;
+   
+}
+
+.mid ul li a {
+    margin: 23px 5px;
+    text-align: center;
+    padding: 10px 7px;
+    width: 87px;
+    display: block;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.Skill {
+    border: 2px solid white;
+    margin: 2px 10px 0px 10px;
+    background-color: grey;
+    border-radius: 90%;
+   
+}
+
+.resume1 {
+    color: white;
+    border: 2px solid white;
+    background-color: mediumspringgreen;
+    border-radius: 90%;
+    margin: 0px 10px;
+}
+
+.project {
+    border: 2px solid white;
+    background-color: aqua;
+    border-radius: 90%;
+    margin: 0px 10px;
+}
+
+.Skill:hover {
+    background-color: white;
+}
+
+.project:hover {
+    background-color: white;
+}
+
+.resume1:hover {
+    background-color: white;
+}
+
+/* About about me css */
+.right2 {
+    display: flex;
+    height: 60px;
+}
+
+.right2 nav ul {
+    display: flex;
+    width: 700px;
+    right: 60px;
+    position: absolute;
+    top: 20px;
+}
+
+.right2 nav ul li a {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 3px 4px;
+}
+
+.right2 nav ul li a:hover {
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 43px;
+    margin: 40px 0px 0px 70px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.aboutme {
+    color: white;
+    font-size: 20px;
+    width: 700px;
+    margin: 10px 0px 0px 60px;
+    padding: 20px 16px 19px 18px;
+}
+
+.aboutimg img {
+    position: absolute;
+    width: 570px;
+    left: 780px;
+    height: 530px;
+    top: 60px;
+}
+
+/* About skills and project css */
+.sp{
+    text-align: center;
+    font-size: 43px;
+    color:white;
+    margin: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h6 {
+    margin: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.s1 {
+    background: linear-gradient(45deg, #afaeaf9c, #0bb0b3d9);
+    border-radius: 20px;
+    color: black;
+    width: 500px;
+    height: 310px;
+    border: 2px solid grey;
+    margin: 10px -50px 10px 90px;
+    padding: 2px 2px;
+    float: left;
+}
+
+.s2 {
+    color: black;
+    margin: 14px 14px;
+    padding: 4px 5px;
+    font-size: 20px;
+}
+
+
+/* About contact css*/
+#contact {
+    color: white;
+}
+
+.conc {
+    margin: 100px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactme {
+    font-family: 'Alegreya', serif;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 400px;
+}
+
+.inputs{
+    color: white;
+    position: absolute;
+    top: 190px;
+    right: 0px;
+}
+
+.text1 {
+    width: 600px;
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 0px 10px;
+    height: 40px;
+    margin: 8px 10px 0px 900px;
+}
+
+.text2 {
+    color: white;
+    width: 600px;
+    height: 90px;
+    padding: 0px 10px;
+    border: none;
+    background-color: black;
+    margin: 8px 80px 0px 900px;
+}
+
+.button {
+    margin: 10px 0px 0px 905px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+    font-size: 18px;
+     padding: 4px 6px;
+}
+
+.social {
+    margin: 5px 5px;
+    padding: 10px;
+    color: red;
+    font-size: 18px;
+}
+.fa-brands{
+    margin-right:10px ;
+}
+
+.logo {
+    margin: 2px 5px;
+    padding: 2px 2px;
+}
+
+/* About resume css */
+.resume {
+    color: white;
+}
+
+.resumehead {
+    margin: 60px 0px 0px 80px;
+    font-size: 40px;
+    height: 140px;
+    color: white;
+}
+
+.resumehead1 {
+    margin: 60px 0px 0px 80px;
+    font-size: 40px;
+    height: 182px;
+    color: white;
+}
+
+.detail {
+    margin: 0px 0px 0px 600px;
+    padding: 6px 4px;
+    position: absolute;
+    top: 220px;
+    font-size: 20px;
+    color: white;
+}
+
+.education{
+    padding: 6px 4px;
+    position: absolute;
+    right: 100px;
+    top: 360px;
+    font-size: 20px;
+    color: white;
+}
+
+.experience {
+    margin: 0px 0px 0px 600px;
+    padding: 6px 4px;
+    position: absolute;
+    top: 640px;
+    font-size: 20px;
+    color: white;
+}
+
+.expertise {
+    margin: 0px 0px 0px 600px;
+    padding: 6px 4px;
+    position: absolute;
+    top: 850px;
+    font-size: 20px;
+    color: white;
+}
